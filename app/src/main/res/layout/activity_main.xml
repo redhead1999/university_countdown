@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context="com.redhead.countdown.MainActivity" >
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lottieImage"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        android:layout_marginTop="-64dp"
+        android:layout_width="match_parent"
+        android:layout_height="460dp"
+        tools:ignore="MissingConstraints" />
+
+    <cn.iwgang.countdownview.CountdownView
+        android:id="@+id/countdownView"
+        style="@style/CustomFont"
+        android:layout_width="wrap_content"
+        android:layout_centerInParent = "true"
+        android:layout_below="@id/lottieImage"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-64dp"
+        android:elevation="8dp"
+        app:isHideTimeBackground="false"
+        app:isShowDay="true"
+        app:isShowHour="true"
+        app:isShowMillisecond="true"
+        app:isShowMinute="true"
+        app:isShowSecond="true"
+        app:isTimeTextBold="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewContent"
+        app:suffixDay="d"
+        app:suffixGravity="bottom"
+        app:suffixHour="h"
+        app:suffixMillisecond="ms"
+        app:suffixMinute="m"
+        app:suffixSecond="s"
+        app:suffixTextColor="#000000"
+        app:suffixTextSize="12sp"
+        app:timeBgRadius="4dp"
+        app:timeBgColor="@color/colorAccent"
+        app:timeTextColor="#FFFFFF"
+        app:timeTextSize="32sp" />
+
+    <TextView
+        android:id="@+id/textViewTop"
+        style="@style/CustomFont"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:fontFamily="@font/poppins"
+        android:text="Осталось до окончания ВУЗа..."
+        android:textSize="16sp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textViewContent"
+        style="@style/CustomFont"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="ВУЗ Таймер"
+        android:layout_below="@+id/textViewTop"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewTop" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ВЫБРАТЬ ДАТУ ОКОНЧАНИЯ"
+        android:id="@+id/btnDatePicker"
+        android:layout_margin="32dp"
+        android:textColor="#ffffff"
+        android:background="@drawable/rounded"
+        android:layout_alignParentBottom="true"
+        tools:ignore="MissingConstraints" />
+
+</RelativeLayout>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "699547467903",
+    "firebase_url": "https://countdowntofinish.firebaseio.com",
+    "project_id": "countdowntofinish",
+    "storage_bucket": "countdowntofinish.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:699547467903:android:e14f5a8b524a6699ddff4a",
+        "android_client_info": {
+          "package_name": "com.redhead.countdown"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "699547467903-tgkqo1aespueu63hfeq684ks1sncqqvp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7yTmPkPpmSMiLBXAHDtfu-sjG_fGWqPM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "699547467903-tgkqo1aespueu63hfeq684ks1sncqqvp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

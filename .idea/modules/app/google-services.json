@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "153519524779",
+    "firebase_url": "https://countdown-b5138.firebaseio.com",
+    "project_id": "countdown-b5138",
+    "storage_bucket": "countdown-b5138.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:153519524779:android:48fd7f166cb2f9db9320ee",
+        "android_client_info": {
+          "package_name": "com.redhead.countdown"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "153519524779-bsc5o0qun6s0ho2frpgo5p3nsknu0sbm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.redhead.countdown",
+            "certificate_hash": "4a33cd492c1166ad8d808fcbdb663aec7295a772"
+          }
+        },
+        {
+          "client_id": "153519524779-h42gk7gsercacnmin17lqn739rod22r7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhAEJej9ABpe_crNwuz2JX2IBFKJFf2gc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "153519524779-h42gk7gsercacnmin17lqn739rod22r7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
