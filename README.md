@@ -1,6 +1,6 @@
 # Таймер отсчёта до окончания ВУЗа, а также для любой другой полосы жизни.
 
-# https://play.google.com/store/apps/details?id=com.redhead.countdown&hl=ru - приложение в GooglePlay
+# https://play.google.com/store/apps/details?id=com.redhead.countdown&hl=ru - приложение в Google Play
 
 + ежедневные уведомления через Firebase
 
