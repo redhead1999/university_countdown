@@ -1,4 +1,4 @@
-### A countdown timer to graduation, as well as for any other band of life.
+### A countdown timer to graduation, as well as for any other life span.
 
 ### https://play.google.com/store/apps/details?id=com.redhead.countdown&hl=ru
 
